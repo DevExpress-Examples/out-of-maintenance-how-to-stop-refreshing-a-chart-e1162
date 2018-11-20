@@ -28,14 +28,14 @@ Namespace WindowsApplication1
 			Me.components = New System.ComponentModel.Container()
 			Me.pivotGridControl1 = New DevExpress.XtraPivotGrid.PivotGridControl()
 			Me.bindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet1 = New WindowsApplication1.nwindDataSet()
-			Me.fieldCategoryID = New DevExpress.XtraPivotGrid.PivotGridField()
+            Me.nwindDataSet1 = New nwindDataSet()
+            Me.fieldCategoryID = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldCategoryName = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldCategoryName1 = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.chartControl1 = New DevExpress.XtraCharts.ChartControl()
 			Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-			Me.categoriesTableAdapter = New WindowsApplication1.nwindDataSetTableAdapters.CategoriesTableAdapter()
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.categoriesTableAdapter = New nwindDataSetTableAdapters.CategoriesTableAdapter()
+            CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.bindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -130,8 +130,8 @@ Namespace WindowsApplication1
 		Private fieldCategoryName1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private WithEvents chartControl1 As DevExpress.XtraCharts.ChartControl
 		Private WithEvents simpleButton1 As DevExpress.XtraEditors.SimpleButton
-		Private categoriesTableAdapter As WindowsApplication1.nwindDataSetTableAdapters.CategoriesTableAdapter
-		Private nwindDataSet1 As nwindDataSet
+        Private categoriesTableAdapter As nwindDataSetTableAdapters.CategoriesTableAdapter
+        Private nwindDataSet1 As nwindDataSet
 		Private bindingSource1 As System.Windows.Forms.BindingSource
 
 
