@@ -88,7 +88,6 @@ namespace ChartUpdateExample {
             this.chartControl1.Location = new System.Drawing.Point(430, 12);
             this.chartControl1.Name = "chartControl1";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[0];
-            sideBySideBarSeriesLabel1.LineVisible = true;
             this.chartControl1.SeriesTemplate.Label = sideBySideBarSeriesLabel1;
             this.chartControl1.Size = new System.Drawing.Size(381, 297);
             this.chartControl1.TabIndex = 1;
