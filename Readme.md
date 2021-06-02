@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/WindowsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication1/Form1.vb))
+* [Form1.cs](./CS/ChartUpdateExample/Form1.cs) (VB: [Form1.vb](./VB/ChartUpdateExample/Form1.vb))
 <!-- default file list end -->
 # How to Pass the PivoGridControl's Data to a Chart
 
