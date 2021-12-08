@@ -15,4 +15,4 @@ A chart bound to a pivot is redrawn frequently and may result in a slow applicat
 
 To manually update the chart, copy the PivotGridControl's data to the IList data source and bind the ChartControl to that intermediate data source.
 
-![screenshot](https://github.com/DevExpress-Examples/how-to-stop-refreshing-a-chart-e1162/blob/18.2.3%2B/images/screenshot.png)
+![screenshot](./images/screenshot.png)
